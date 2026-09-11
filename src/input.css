@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,300&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-gray-500: #6b7082;
+  --color-gray-100: #e8e9ec;
+  --color-navy-950: #2e3349;
+  /* Typography */
+  --font-kumbh: "Kumbh Sans", sans-serif;
+  /* Spacing */
+  --spacing-100: 0.5rem; /* 8px */
+  --spacing-200: 1rem; /* 16px */
+  --spacing-300: 1.5rem; /* 24px */
+  --spacing-700: 3.5rem; /* 56px */
+}
+
+@utility text-preset-1-bold {
+  font-family: var(--font-kumbh);
+  font-weight: 700; /* bold */
+  font-size: 1.125rem; /* 18px */
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@utility text-preset-1-regular {
+  font-family: var(--font-kumbh);
+  font-weight: 400; /* regular */
+  font-size: 1.125rem; /* 18px */
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@utility text-preset-2 {
+  font-family: var(--font-kumbh);
+  font-weight: 400; /* regular */
+  font-size: 0.875rem; /* 14px */
+  line-height: 125%;
+  letter-spacing: 0rem;
+}
+
+@utility text-preset-3 {
+  font-family: var(--font-kumbh);
+  font-weight: 400; /* regular */
+  font-size: 0.625rem; /* 10px */
+  line-height: 125%;
+  letter-spacing: 0.094rem; /* 1.5px */
+}
