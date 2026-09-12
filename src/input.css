@@ -19,34 +19,26 @@
 }
 
 @utility text-preset-1-bold {
-  font-family: var(--font-kumbh);
   font-weight: 700; /* bold */
   font-size: 1.125rem; /* 18px */
-  line-height: 125%;
   letter-spacing: 0rem;
 }
 
 @utility text-preset-1-regular {
-  font-family: var(--font-kumbh);
   font-weight: 400; /* regular */
   font-size: 1.125rem; /* 18px */
-  line-height: 125%;
   letter-spacing: 0rem;
 }
 
 @utility text-preset-2 {
-  font-family: var(--font-kumbh);
   font-weight: 400; /* regular */
   font-size: 0.875rem; /* 14px */
-  line-height: 125%;
   letter-spacing: 0rem;
 }
 
 @utility text-preset-3 {
-  font-family: var(--font-kumbh);
   font-weight: 400; /* regular */
   font-size: 0.625rem; /* 10px */
-  line-height: 125%;
   letter-spacing: 0.094rem; /* 1.5px */
 }
 
