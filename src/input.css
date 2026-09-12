@@ -6,6 +6,8 @@
   /* Colors */
   --color-gray-500: #6b7082;
   --color-gray-100: #e8e9ec;
+  --color-blue-600: #19a1ae;
+  --color-blue-400: #41cbd3;
   --color-navy-950: #2e3349;
   /* Typography */
   --font-kumbh: "Kumbh Sans", sans-serif;
@@ -46,4 +48,20 @@
   font-size: 0.625rem; /* 10px */
   line-height: 125%;
   letter-spacing: 0.094rem; /* 1.5px */
+}
+
+@utility bg-pattern-card {
+  background-image: url("../images/bg-pattern-card.svg");
+  background-size: 100% 35%;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+@utility bg-pattern {
+  background-repeat: no-repeat, no-repeat;
+  background-position:
+    right 52vw bottom 35vh,
+    left 48vw top 52vh;
+  background-image:
+    url(../images/bg-pattern-top.svg), url(../images/bg-pattern-bottom.svg);
 }
